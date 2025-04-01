@@ -1,0 +1,49 @@
+/* skills.css */
+.skills {
+  padding: 60px 20px; /* Space around the skills section */
+  text-align: center; /* Center text */
+  background: linear-gradient(135deg, #4b6cb7, #182848); /* Blue to Violet gradient */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  color: #fff; /* White text for contrast */
+}
+
+.skills h2 {
+  margin-top: 5px;
+  font-size: 2rem; /* Font size for the heading */
+  margin-bottom: 40px; /* Space below the heading */
+}
+
+.skills-list {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items */
+  flex-wrap: wrap; /* Wrap items to the next line */
+  gap: 20px; /* Space between skill items */
+}
+
+.skill {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white for contrast */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside skill cards */
+  width: 200px; /* Fixed width for skill cards */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: transform 0.3s, background 0.3s; /* Smooth transition for hover effect */
+}
+
+.skill:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background: rgba(255, 255, 255, 0.3); /* Lighten on hover */
+}
+
+.skill h3 {
+  font-size: 1.5rem; /* Font size for skill name */
+  margin-bottom: 10px; /* Space below the skill name */
+}
+
+.skill p {
+  font-size: 1rem; /* Font size for skill level */
+  color: #eee; /* Lighter gray for readability */
+}

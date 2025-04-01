@@ -1,0 +1,65 @@
+/* header.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #282c34; /* Dark background */
+  color: white;
+  padding: 10px 20px;
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Stick to the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other content */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav links */
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em; /* Adjust font size for the logo */
+  font-weight: bold; /* Make the logo text bold */
+  color: white; /* Logo color */
+  margin-right: 20px; /* Add margin to the right to move it towards the center */
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #4b6cb7; /* Match gradient colors on hover */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the links */
+  flex-grow: 1; /* Allow the nav links to grow and take available space */
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Add hover effect */
+}
+
+main {
+  margin-top: 60px; /* Add margin to prevent content from being hidden behind the header */
+  padding: 20px;
+}
+
+section {
+  height: 2000px; /* Just for demonstration, to create scrollable content */
+}

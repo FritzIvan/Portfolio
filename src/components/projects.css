@@ -1,0 +1,42 @@
+/* General Styles */
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #4b6cb7, #182848); /* Blue to Violet gradient */
+  height: 100vh;
+}
+
+.title { /* Assuming you are using a class for the title */
+  font-size: 4em; /* Font size for the title */
+  margin-bottom: 20px; /* Space below the title */
+  color: #ffffff; /* Change color to white */
+}   
+
+/* Project List */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Project Card */
+.project {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white for contrast */
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+

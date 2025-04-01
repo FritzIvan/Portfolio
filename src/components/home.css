@@ -1,0 +1,77 @@
+/* hero.css */
+html, body {
+  height: 100%; /* Full height for html and body */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.home {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between text and image */
+  padding: 40px 20px; /* Increased padding for more space around the content */
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(135deg, #4b6cb7, #182848); /* Blue to Violet gradient */
+  color: #ffffff; /* Light text color for contrast */
+}
+
+.text-container {
+  max-width: 600px; /* Limit the width of the text container */
+  margin-left: auto; /* Push the text container to the right */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+}
+
+.home h1 {
+  font-size: 2rem; /* Font size for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.home h2 {
+  font-size: 3.8rem; /* Increased font size for the subtitle */
+  margin-bottom: 20px; /* Space below the subtitle */
+  color: #f0f0f0; /* Light color for the subtitle */
+}
+
+.home p {
+  font-size: 1.8rem; /* Increased font size for the description */
+  margin-bottom: 30px; /* Space below the description */
+}
+
+.btn {
+  background-color: #ffffff; /* Light button background */
+  color: #182848; /* Dark text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none; /* No underline */
+  font-size: 1.2rem; /* Increased font size for the button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  width: 220px; /* Fixed width for the button */
+  height: 50px; /* Fixed height for the button */
+  text-align: center; /* Center text inside the button */
+  margin: 20px 0; /* Vertical spacing */
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #4b6cb7; /* Match gradient colors on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.image-container {
+  flex: 1; /* Allow the image container to grow */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.profile-image {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  max-width: 500px; /* Maximum width to maintain aspect ratio */
+  max-height: 400px; /* Maximum height to maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
