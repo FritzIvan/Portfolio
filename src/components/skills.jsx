@@ -4,7 +4,7 @@ import './skills.css'; // Import the CSS file for styling
 
 const Skills = () => {
   const skillsList = [
-    { name: "JavaScript", level: "Intermediate" },
+    { name: "JavaScript", level: "Beginner" },
     { name: "React", level: "Beginner" },
     { name: "CSS", level: "Beginner" },
     { name: "HTML", level: "Beginner" },
