@@ -33,7 +33,7 @@ const Header = () => {
     <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <nav className="nav">
         <div className="logo" onClick={() => scrollToSection('top')}>
-          PORTFOLIO
+          FRITZ IVAN 
         </div>
         <div className="media-icons">
           <a href="https://www.facebook.com/ivanfritz.genovatin" target="_blank" rel="noopener noreferrer" className="facebook">
